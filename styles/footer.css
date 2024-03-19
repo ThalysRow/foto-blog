@@ -1,0 +1,10 @@
+footer {
+	--start-y: 100%;
+	animation: move 0.2s;
+}
+
+footer p {
+	text-align: center;
+	padding: 1rem;
+	font-weight: 600;
+}
