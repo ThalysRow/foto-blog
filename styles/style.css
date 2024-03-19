@@ -1,0 +1,21 @@
+@import './reset.css';
+@import './global.css';
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+
+#app {
+	display: grid;
+	grid-template-rows: max-content 1fr max-content;
+	height: 100vh;
+}
+
+.container {
+	padding: 1rem 2rem;
+	width: min(70rem 100%);
+}
+
+body {
+	background-color: var(--color-base-white);
+	color: var(--color-base-gray-900);
+}
